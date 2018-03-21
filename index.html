@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Sit on chair</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="clearFix center">
+    <header>
         <h1 class="logo">
             sit <span>on</span> chair
         </h1>
 
-        <nav class="clearFix">
+        <nav>
             <ul>
-                <li class="submenu"><a href="#">o firmie</a>
+                <li class="subNav"><a href="#">o firmie</a>
                     <ul>
-                        <li class="arrow"><span></span></li>
                         <li><a href="#">Aktualności</a></li>
                         <li><a href="#">Nasz team</a></li>
                         <li><a href="#">Historia</a></li>
@@ -27,150 +26,171 @@
         </nav>
     </header>
 
-    <section class="commercial center clearFix">
-        <span class="leftArrow">&lt;</span>
-        <span class="rightArrow">&gt;</span>
-        <article class="container">
-            <figure class="picture">
-                <img src="images/black_chair.png" alt="arm chair">
-            </figure>
+    <section class="news">
+        <div class="leftArrow"><span>&lt;</span></div>
 
-            <div class="text">
-                <header>
-                    <h2>Sit <span>on</span> our chair</h2>
-                </header>
-                <p>
-                    Lemon drops tootsie roll dragée sweet roll muffin candy canes jelly-o powder.
-                    Fruitcake pie caramels brownie croissant cupcake pudding wafer.
-                    Sweet roll ice cream lollipop ice cream.
-                </p>
-                <button>Zobacz więcej</button>
-            </div>
-        </article>
+        <ul class="picture slider">
+            <li class="visible">
+                <img src="images/black_chair.png" alt="arm chair">
+            </li>
+            <li>
+                <img src="images/red_chair.png" alt="red chair">
+            </li>
+        </ul>
+
+        <div class="text">
+            <h2>Sit <span>on</span> our <span>chair</span></h2>
+            <ul class="slider">
+                <li class="visible">
+                    <p>
+                        Lemon drops tootsie roll dragée sweet roll muffin candy canes jelly-o powder.
+                        Fruitcake pie caramels brownie croissant cupcake pudding wafer.
+                        Sweet roll ice cream lollipop ice cream.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Cupcake ipsum dolor sit amet liquorice. Brownie oat cake chocolate bar. 
+                        Gummi bears jelly jelly cake chocolate powder gummi bears cupcake. 
+                        Wafer muffin cupcake. 
+                        Bonbon cookie caramels caramels pastry jujubes sesame snaps wafer macaroon.
+                    </p>
+                </li>
+            </ul>
+                
+            <button>Zobacz więcej</button>
+        </div>
+        <div class="rightArrow"><span>&gt;</span></div>
     </section>
 
-    <!-- <section class="newProducts center">
-        <article>
-            
-        </article>
+    <section class="bestsellers">
+        <figure>
+            <img src="images/box1_img.jpg" alt="White Chair">
+            <figcaption><span class="underline">Chair <span class="uppercase">Clair</span></span></figcaption>
+        </figure>
 
-        <article>
+        <figure>
+            <img src="images/box2_img.jpg" alt="White Chair">
+            <figcaption><span class="underline">Chair <span class="uppercase">Margarita</span></span></figcaption>
+        </figure>
 
-        </article>
-
-        <article>
-            <header>Lemon drops</header>
+        <div class="comment">
+            <h2><span class="underline">Lemon drops</span></h2>
             <p>
                 Lemon drops tootsie roll dragée sweet roll muffin candy canes jelly-o powder.
                 Fruitcake pie caramels brownie croissant cupcake pudding wafer.
                 Sweet roll ice cream lollipop ice cream.
             </p>
-        </article>
-    </section> -->
-
-    <section class="prices center clearFix">
-        <header>
-            <h2>cennik</h2>
-        </header>
-
-        <article>
-            <span class="outerCircle"></span>
-            <span class="innerCircle"></span>
-            <header>
-                <h2>Basic plan</h2>
-            </header>
-            <div class="price">
-                <p>
-                    <span>8</span><span>5</span><span>99</span>
-                </p>
-                <p>
-                    pln/msc
-                </p>
-            </div>
-            <ul>
-                <li>Zakup towaru + dowóz</li>
-                <li>Serwis</li>
-            </ul>
-            <button>Dołącz</button>
-        </article>
-
-        <article>
-            <span class="outerCircle"></span>
-            <span class="innerCircle"></span>
-            <header>
-                <h2>Standard plan</h2>
-            </header>
-            <div class="price">
-                <p>
-                    <span>9</span><span>5</span><span>99</span>
-                </p>
-                <p>
-                    pln/msc
-                </p>
-            </div>
-            <ul>
-                <li>Zakup towaru + dowóz</li>
-                <li>Serwis</li>
-                <li>Gwarancja <span>5</span> lat</li>
-            </ul>
-            <button>Dołącz</button>
-        </article>
-
-        <article>
-            <span class="outerCircle"></span>
-            <span class="innerCircle"></span>
-            <header>
-                <h2>Advance plan</h2>
-            </header>
-            <div class="price">
-                <p>
-                    <span>211</span><span>99</span>
-                </p>
-                <p>
-                    pln/msc
-                </p>
-            </div>
-            <ul>
-                <li>Zakup towaru + dowóz</li>
-                <li>Serwis</li>
-                <li>Gwarancja 6 lat</li>
-                <li>Porady projektanta</li>
-            </ul>
-            <button>Dołącz</button>
-        </article>
+        </div>
     </section>
 
-    <!-- <section class="contact center">
-        <header>
-            <h2>kontakt</h2>
-        </header>
+    <section class="prices">
+        
+        <h2>
+            <span class="underline">cennik</span>
+        </h2>
+        
+        
+        <div class="offers">
+            <div class="offer">
+                <span class="outerCircle"></span>
+                <span class="innerCircle"></span>
+                <h3>Basic plan</h3>
+                
+                <div class="cost">
+                    <p class="number">
+                        <span>85</span><sup>99</sup>
+                    </p>
+                    <p class="currency">
+                        pln/msc
+                    </p>
+                </div>
+                <ul>
+                    <li>Zakup towaru + dowóz</li>
+                    <li>Serwis</li>
+                </ul>
+                <button>Dołącz</button>
+            </div>
+
+            <div class="offer">
+                <span class="outerCircle"></span>
+                <span class="innerCircle"></span>
+                <h3>Standard plan</h3>
+                
+                <div class="cost">
+                    <p class="number">
+                        <span>95</span><sup>99</sup>
+                    </p>
+                    <p class="currency">
+                        pln/msc
+                    </p>
+                </div>
+                <ul>
+                    <li>Zakup towaru + dowóz</li>
+                    <li>Serwis</li>
+                    <li>Gwarancja <span>5</span> lat</li>
+                </ul>
+                <button>Dołącz</button>
+            </div>
+
+            <div class="offer">
+                <span class="outerCircle"></span>
+                <span class="innerCircle"></span>
+                <h3>Advance plan</h3>
+
+                <div class="cost">
+                    <p class="number">
+                        <span>211</span><sup>99</sup>
+                    </p>
+                    <p class="currency">
+                        pln/msc
+                    </p>
+                </div>
+                <ul>
+                    <li>Zakup towaru + dowóz</li>
+                    <li>Serwis</li>
+                    <li>Gwarancja 6 lat</li>
+                    <li>Porady projektanta</li>
+                </ul>
+                <button>Dołącz</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>kontakt</h2>
+        
         <form action="#">
-            <input type="text" name="name" placeholder="Imię">
-            <input type="text" name="email" placeholder="email">
-            <textarea name="messageText" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea>
-            <input type="checkbox" name="agreement" checked>
-
-            <input type="button" value="wyślij">
-
+            <div class="fillIn">
+                <input type="text" name="name" placeholder="Imię">
+                <input type="text" name="email" placeholder="email">
+                <textarea name="messageText" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea>
+            </div>
+            <div class="confirm">
+                
+                <input id="checkbox" type="checkbox" name="agreement" checked>
+                <label for="checkbox"><span></span>Zgadzam się na przetwarzanie danych osobowych</label>
+                    
+                <input type="button" value="wyślij">
+            </div>
         </form>
 
-    </section> -->
+    </section>
 
-    <footer class="center">
+    <footer>
         <div class="copy">Copyright 2014 | All Rights Reserved. - Sit On Chair</div>
         <div class="social">
             <ul>
-                <li>fr</li>
-                <li>Vimeo</li>
-                <li>Pinterest</li>
-                <li>Twitter</li>
+                <li id="flickr"><a href="#"><span>Flickr</span></a></li>
+                <li id="vimeo"><a href="#"><span>Vimeo</span></a></li>
+                <li id="pinterest"><a href="#"><span>Pinterest</span></a></li>
+                <li id="twitter"><a href="#"><span>Twitter</span></a></li>
             </ul>
-
         </div>
         <div class="logo">sit <span>on</span> chair</div>
     </footer>
 
 
-
+    <script src="js/slider.js"></script>
 </body>
 </html>

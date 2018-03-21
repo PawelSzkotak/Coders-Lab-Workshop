@@ -1,0 +1,670 @@
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 7, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+* ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 18, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+body {
+  background-color: #0E0E0E;
+}
+
+/* line 22, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+header, section, footer {
+  background-color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 28, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+.logo {
+  text-transform: capitalize;
+}
+
+/* line 32, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
+.logo span {
+  font-weight: bold;
+}
+
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header .logo span {
+  color: #27c7ab;
+}
+
+/* line 5, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header {
+  height: 40px;
+  padding: 0px 77px 0px 69px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 15, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header .logo {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+/* line 23, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav {
+  width: 50%;
+  height: 100%;
+}
+
+/* line 27, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* line 33, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul li {
+  margin-left: 38px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 38, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  z-index: 10;
+}
+
+/* line 46, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 53, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul .subNav {
+  position: relative;
+}
+
+/* line 56, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul .subNav:hover ul {
+  display: block;
+}
+
+/* line 60, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul .subNav ul {
+  display: none;
+  height: 100px;
+  position: absolute;
+  top: 32px;
+  right: -30px;
+}
+
+/* line 67, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul .subNav ul li {
+  background-color: #000;
+  padding: 10px 8px;
+  margin: 0;
+}
+
+/* line 73, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
+header nav ul .subNav ul::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 12px;
+  background-color: #000;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f8f8f8+52,cfced3+99 */
+  background: white;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, white 0%, #f8f8f8 52%, #cfced3 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 0%, #f8f8f8 52%, #cfced3 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 0%, #f8f8f8 52%, #cfced3 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfced3',GradientType=0 );
+  /* IE6-9 */
+  min-height: 505px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 63px;
+}
+
+/* line 16, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .picture {
+  width: 470px;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+/* line 21, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .picture img {
+  display: block;
+  transform: scale(1.2);
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* line 29, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .text {
+  width: 400px;
+  text-align: center;
+}
+
+/* line 33, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .text h2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+/* line 38, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .text h2 span {
+  color: #27c7ab;
+  font-weight: 700;
+}
+
+/* line 44, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .text p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin: 33px 0;
+}
+
+/* line 50, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .text button {
+  background-color: #24BA9F;
+  border-radius: 10px;
+  border: none;
+  width: 265px;
+  height: 50px;
+  color: #fff;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+/* line 62, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .slider li {
+  display: none;
+}
+
+/* line 65, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .slider li.visible {
+  display: block;
+}
+
+/* line 70, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .leftArrow, .news .rightArrow {
+  cursor: pointer;
+  height: 100%;
+  color: #27c7ab;
+  font-size: 8.2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 79, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .leftArrow span, .news .rightArrow span {
+  display: block;
+  width: 100%;
+  font-weight: 100;
+  text-align: center;
+}
+
+/* line 85, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .leftArrow span:hover, .news .rightArrow span:hover {
+  text-decoration: none;
+}
+
+/* line 88, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_news.scss */
+.news .leftArrow span:active, .news .rightArrow span:active {
+  text-decoration: none;
+}
+
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers {
+  font-size: 1.5rem;
+  display: flex;
+  height: 350px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 28px 49px;
+}
+
+/* line 9, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers .uppercase {
+  text-transform: uppercase;
+}
+
+/* line 13, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers .underline {
+  display: inline-block;
+  width: 140px;
+  border-bottom: 8px solid #24C7AA;
+}
+
+/* line 19, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers figure {
+  width: 330px;
+  position: relative;
+}
+
+/* line 22, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers figure figcaption {
+  padding: 15px 10px;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 147px;
+}
+
+/* line 32, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers div.comment {
+  width: 330px;
+  height: 250px;
+  padding: 25px 18px;
+  border: 1px solid #CFCED3;
+}
+
+/* line 38, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_bestsellers.scss */
+.bestsellers div.comment h2 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices {
+  padding: 38px 67px 63px 67px;
+  background-color: #F1F1F1;
+}
+
+/* line 6, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices h2 {
+  margin-bottom: 80px;
+  padding: 5px 0;
+  font-size: 2.2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 320px;
+  border-bottom: 8px solid #24C7AA;
+}
+
+/* line 15, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 20, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer {
+  width: 330px;
+  height: 500px;
+  padding: 0px 0 10px 0;
+  border: 2px solid #C2C2C2;
+  background-color: #F9F9F9;
+  text-align: center;
+  color: #C2C2C2;
+  position: relative;
+}
+
+/* line 30, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .outerCircle {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  margin-top: -43px;
+  border-radius: 50px;
+  border: 2px solid #C2C2C2;
+  background-color: #F9F9F9;
+}
+
+/* line 41, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .innerCircle {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+  margin-top: -41px;
+  border-radius: 25px;
+  border: none;
+  background-color: #C2C2C2;
+}
+
+/* line 52, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer h3 {
+  font-size: 2.2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #24C7AA;
+  margin: 25px auto 25px auto;
+}
+
+/* line 61, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .cost {
+  border: 2px solid #C2C2C2;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* line 72, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .cost p {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 76, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .cost p.number {
+  font-size: 4.5rem;
+}
+
+/* line 79, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .cost p.number sup {
+  font-size: 2rem;
+  position: relative;
+  bottom: 5px;
+}
+
+/* line 86, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer .cost p.currency {
+  font-size: 1.5rem;
+}
+
+/* line 93, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer ul {
+  margin-top: 35px;
+}
+
+/* line 96, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer ul li {
+  font-size: 2.4rem;
+  padding: 7px 0;
+  color: #9B9B9B;
+}
+
+/* line 101, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer ul li:nth-child(2n+1) {
+  background-color: #E4E4E4;
+}
+
+/* line 105, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer ul li:nth-child(2n) {
+  background-color: #F1F1F1;
+}
+
+/* line 112, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer button {
+  width: 122px;
+  height: 35px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 7px;
+  background-color: #24C7AA;
+  position: absolute;
+  bottom: 23px;
+  left: 100px;
+}
+
+/* line 16, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact {
+  padding: 28px 67px;
+  background-image: url(../images/red_chair.png);
+  background-repeat: no-repeat;
+  background-position: 807px 87px;
+}
+
+/* line 22, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact h2 {
+  margin-bottom: 43px;
+  padding: 5px 0;
+  font-size: 2.2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 320px;
+  border-bottom: 8px solid #24C7AA;
+}
+
+/* line 32, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 37, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 42, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn input, .contact form .fillIn textarea {
+  border: 1px solid #24C7AA;
+  margin-bottom: 26px;
+  padding: 14px 22px;
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+/* line 2, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn input::-webkit-input-placeholder, .contact form .fillIn textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 3.2rem;
+  font-weight: normal;
+  color: #D6D6D6;
+}
+
+/* line 5, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn input::-moz-placeholder, .contact form .fillIn textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 3.2rem;
+  font-weight: normal;
+  color: #D6D6D6;
+}
+
+/* line 8, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn input:-ms-input-placeholder, .contact form .fillIn textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 3.2rem;
+  font-weight: normal;
+  color: #D6D6D6;
+}
+
+/* line 11, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn input:-moz-placeholder, .contact form .fillIn textarea:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 3.2rem;
+  font-weight: normal;
+  color: #D6D6D6;
+}
+
+/* line 55, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn input {
+  height: 66px;
+}
+
+/* line 59, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .fillIn textarea {
+  resize: none;
+  height: 188px;
+}
+
+/* line 65, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .confirm {
+  margin-left: 0;
+  margin-bottom: 26px;
+  width: 346px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 75, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .confirm input[type="checkbox"] {
+  display: none;
+}
+
+/* line 79, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .confirm input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 63px;
+  color: #C2C2C2;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 2.3rem;
+}
+
+/* line 89, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .confirm input[type="checkbox"] + label span {
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: 2px;
+  width: 48px;
+  height: 49px;
+  border: 1px solid #24C7AA;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* line 101, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form .confirm input[type="checkbox"]:checked + label span {
+  background: url(../images/form_ok.jpg) no-repeat;
+  background-position: 0 10px;
+  background-size: 90%;
+}
+
+/* line 108, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */
+.contact form input[type="button"] {
+  margin-top: 37px;
+  border: none;
+  border-radius: 10px;
+  width: 344px;
+  height: 70px;
+  background-color: #24C7AA;
+  color: #fff;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+}
+
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 38px 67px 52px 67px;
+  font-size: 1.8rem;
+  color: #9C9C9C;
+}
+
+/* line 10, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 270px;
+  width: 500px;
+}
+
+/* line 16, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li {
+  width: 35px;
+  height: 35px;
+  margin-left: 4px;
+}
+
+/* line 21, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 26, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li a span {
+  visibility: hidden;
+}
+
+/* line 31, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li#flickr {
+  background: url(../images/flickr.png) no-repeat;
+  background-position: center;
+}
+
+/* line 35, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li#vimeo {
+  background: url(../images/vimeo.png) no-repeat;
+  background-position: center;
+}
+
+/* line 39, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li#pinterest {
+  background: url(../images/pinterest.png) no-repeat;
+  background-position: center;
+}
+
+/* line 43, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer ul li#twitter {
+  background: url(../images/twitter.png) no-repeat;
+  background-position: center;
+}
+
+/* line 51, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer .logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* line 56, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_footer.scss */
+footer .logo span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=../css/main.map */

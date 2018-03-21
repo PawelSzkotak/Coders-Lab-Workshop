@@ -1,0 +1,134 @@
+.prices {
+  padding: 38px 67px 63px 67px;
+  background-color: #F1F1F1;
+
+
+  h2 {
+    margin-bottom: 80px;
+    padding: 5px 0;
+    font-size: 2.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 320px;
+    border-bottom: 8px solid #24C7AA;
+  }
+  .offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    div.offer {
+      width: 330px;
+      height: 500px;
+      padding: 0px 0 10px 0;
+      border: 2px solid #C2C2C2;
+      background-color: #F9F9F9;
+      text-align: center;
+      color: #C2C2C2;
+      position: relative;
+
+      .outerCircle {
+        display: block;
+        width: 56px;
+        height: 56px;
+        margin: 0 auto;
+        margin-top: -43px;
+        border-radius: 50px;
+        border: 2px solid #C2C2C2;
+        background-color: #F9F9F9;
+      }
+    
+      .innerCircle {
+        display: block;
+        width: 26px;
+        height: 26px;
+        margin: 0 auto;
+        margin-top: -41px;
+        border-radius: 25px;
+        border: none;
+        background-color: #C2C2C2;
+      }
+
+      h3 {
+        font-size: 2.2rem;
+        font-weight: normal;
+        text-transform: uppercase; 
+        color: #24C7AA;
+        margin: 25px auto 25px auto;
+        
+      }
+      
+      .cost {
+        border: 2px solid #C2C2C2;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        p {
+          font-weight: bold;
+          text-transform: uppercase;
+
+          &.number {
+            font-size: 4.5rem;
+            
+            sup {
+              font-size: 2rem;
+              position: relative;
+              bottom: 5px;
+            }
+          }
+          
+          &.currency {
+            font-size: 1.5rem;
+          }
+
+        }
+      }
+
+      ul {
+        margin-top: 35px;
+
+        li {
+          font-size: 2.4rem;
+          padding: 7px 0;
+          color: #9B9B9B;
+
+          &:nth-child(2n+1) {
+            background-color: #E4E4E4;
+          }
+          
+          &:nth-child(2n) {
+            background-color: #F1F1F1;
+            ;
+          }
+        }
+      }
+
+      button {
+        width: 122px;
+        height: 35px;
+        // padding: 8px 0;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 7px;
+        background-color: #24C7AA;
+        position: absolute;
+        bottom: 23px;
+        left: 100px;
+
+        
+
+      }
+    }
+  }
+}
+
+
