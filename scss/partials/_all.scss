@@ -19,8 +19,8 @@ body {
   background-color: #0E0E0E;
 }
 
-header, section, footer {
-  background-color: #fff;
+.mainHeader, body > section, footer {
+  background-color: #f9f9f9;
   width: 1200px;
   margin: 0 auto;
 }

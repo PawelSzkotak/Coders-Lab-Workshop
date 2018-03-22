@@ -24,8 +24,8 @@ body {
 }
 
 /* line 22, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_all.scss */
-header, section, footer {
-  background-color: #fff;
+.mainHeader, body > section, footer {
+  background-color: #f9f9f9;
   width: 1200px;
   margin: 0 auto;
 }
@@ -41,12 +41,12 @@ header, section, footer {
 }
 
 /* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header .logo span {
+.mainHeader .logo span {
   color: #27c7ab;
 }
 
 /* line 5, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header {
+.mainHeader {
   height: 40px;
   padding: 0px 77px 0px 69px;
   background-color: #000;
@@ -57,7 +57,7 @@ header {
 }
 
 /* line 15, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header .logo {
+.mainHeader .logo {
   text-transform: uppercase;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
@@ -66,13 +66,13 @@ header .logo {
 }
 
 /* line 23, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav {
+.mainHeader nav {
   width: 50%;
   height: 100%;
 }
 
 /* line 27, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul {
+.mainHeader nav ul {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -80,14 +80,14 @@ header nav ul {
 }
 
 /* line 33, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul li {
+.mainHeader nav ul li {
   margin-left: 38px;
   display: flex;
   align-items: center;
 }
 
 /* line 38, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul li a {
+.mainHeader nav ul li a {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
@@ -97,22 +97,22 @@ header nav ul li a {
 }
 
 /* line 46, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul li a:hover {
+.mainHeader nav ul li a:hover {
   text-decoration: underline;
 }
 
 /* line 53, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul .subNav {
+.mainHeader nav ul .subNav {
   position: relative;
 }
 
 /* line 56, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul .subNav:hover ul {
+.mainHeader nav ul .subNav:hover ul {
   display: block;
 }
 
 /* line 60, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul .subNav ul {
+.mainHeader nav ul .subNav ul {
   display: none;
   height: 100px;
   position: absolute;
@@ -121,14 +121,14 @@ header nav ul .subNav ul {
 }
 
 /* line 67, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul .subNav ul li {
+.mainHeader nav ul .subNav ul li {
   background-color: #000;
   padding: 10px 8px;
   margin: 0;
 }
 
 /* line 73, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_header.scss */
-header nav ul .subNav ul::before {
+.mainHeader nav ul .subNav ul::before {
   content: '';
   display: block;
   width: 20px;
@@ -446,6 +446,319 @@ header nav ul .subNav ul::before {
   position: absolute;
   bottom: 23px;
   left: 100px;
+}
+
+/* line 127, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover {
+  background-color: #24C7AA;
+  border-color: #24C7AA;
+}
+
+/* line 131, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover .outerCircle {
+  background-color: #24C7AA;
+  border-color: #24C7AA;
+}
+
+/* line 135, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover .innerCircle {
+  background-color: #fff;
+}
+
+/* line 138, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover h3 {
+  color: #fff;
+}
+
+/* line 141, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover .cost {
+  border-color: #24C7AA;
+  color: #24C7AA;
+  background-color: #fff;
+}
+
+/* line 147, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover ul li:nth-child(2n+1) {
+  background-color: #FFFFFF;
+}
+
+/* line 151, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_prices.scss */
+.prices .offers div.offer:hover button {
+  color: #24C7AA;
+  background-color: #fff;
+}
+
+/* line 1, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+/* line 5, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .application {
+  background-color: #f9f9f9;
+  padding: 30px 0;
+}
+
+/* line 9, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .application h3 {
+  color: #575757;
+  font-size: 18px;
+}
+
+/* line 14, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .application header {
+  background-color: transparent;
+}
+
+/* line 18, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .application header.align_right {
+  text-align: right;
+}
+
+/* line 23, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .inline {
+  display: inline-block;
+  width: 300px;
+  padding: 14px;
+  vertical-align: top;
+}
+
+/* line 31, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .form {
+  margin-top: 50px;
+}
+
+/* line 34, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .drop_down_list {
+  border: 1px solid #8de0d2;
+  width: 280px;
+  height: 38px;
+  background-color: white;
+  margin-top: 22px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+/* line 44, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .list_label {
+  font-size: 30px;
+  color: #e2e2e2;
+  font-family: 'ralewaylight', Arial, Tahoma, sans-serif;
+}
+
+/* line 51, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .checkbox {
+  position: relative;
+  padding: 30px 30px 30px 0;
+}
+
+/* line 55, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .checkbox input {
+  display: block;
+  opacity: 0;
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  cursor: pointer;
+}
+
+/* line 64, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .checkbox label {
+  display: block;
+  padding-left: 65px;
+  position: relative;
+  font-size: 28px;
+  color: #cecece;
+  line-height: 120%;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+/* line 75, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .checkbox label::before, body .checkbox label::after {
+  border: 1px solid #27c7ab;
+  content: "";
+  display: block;
+  left: 0;
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  top: 0;
+}
+
+/* line 85, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .checkbox label::after {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+  border: 0;
+  display: none;
+}
+
+/* line 91, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .checkbox input:checked + label::after {
+  display: block;
+}
+
+/* line 96, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .active {
+  background: url("../images/form_ok.jpg");
+  width: 48px;
+  height: 40px;
+}
+
+/* line 102, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .inline_text {
+  display: inline-block;
+  width: 228px;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: #aeaeae;
+}
+
+/* line 110, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .image_part img {
+  margin-top: 110px;
+  margin-left: 38px;
+}
+
+/* line 116, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .application .green_bell {
+  background-color: #24baa0;
+  width: 200px;
+  height: 6px;
+  display: inline-block;
+  margin: 5px 0 5px 0;
+}
+
+/* line 124, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .summary_panel {
+  background-color: white;
+  width: 100%;
+  height: 195px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+/* line 133, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .application .green_button {
+  background-color: #27c7ab;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  padding: 10px 30px;
+  font-size: 24px;
+  display: inline-block;
+  font-family: 'ralewaymedium', Arial, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 29px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* line 148, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .panel_left {
+  display: inline-block;
+  width: 185px;
+  vertical-align: top;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+  height: 135px;
+}
+
+/* line 157, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .panel_right {
+  display: inline-block;
+  width: 100px;
+  border-left: 1px solid #e7e7e7;
+  text-align: right;
+  vertical-align: top;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+  height: 135px;
+}
+
+/* line 168, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .panel_left h4, body .panel_right h4 {
+  color: #24baa0;
+  font-size: 23px;
+}
+
+/* line 173, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .panel_left span {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #5b5a5a;
+  display: block;
+}
+
+/* line 180, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .panel_right span {
+  display: block;
+  font-size: 22px;
+  color: #24baa0;
+  margin-top: 10px;
+}
+
+/* line 186, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .sum_label {
+  display: inline-block;
+  width: 185px;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #5b5a5a;
+}
+
+/* line 194, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .sum {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #24baa0;
+}
+
+/* line 203, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .list_arrow {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #24baa0;
+  display: block;
+  position: absolute;
+  right: 14px;
+  top: 20px;
+  cursor: pointer;
+}
+
+/* line 216, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .list_panel {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 288px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  list-style: none;
+  margin: 0;
+  left: 0px;
+  z-index: 2;
+  position: absolute;
+  top: 54px;
+  display: none;
+}
+
+/* line 230, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .list_panel li {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #585858;
+}
+
+/* line 236, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_application.scss */
+body .title {
+  height: 30px;
 }
 
 /* line 16, K:/Projects/CodersLab/Sit_On_Chair/scss/partials/_contact.scss */

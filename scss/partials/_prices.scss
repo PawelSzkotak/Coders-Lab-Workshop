@@ -112,7 +112,6 @@
       button {
         width: 122px;
         height: 35px;
-        // padding: 8px 0;
         color: #fff;
         font-size: 1.5rem;
         font-weight: 100;
@@ -123,9 +122,36 @@
         position: absolute;
         bottom: 23px;
         left: 100px;
+      }
 
-        
+      &:hover {
+        background-color: #24C7AA;
+        border-color: #24C7AA;
 
+        .outerCircle {
+          background-color: #24C7AA;
+          border-color: #24C7AA;
+        }
+        .innerCircle {
+          background-color: #fff;
+        }
+        h3 {
+          color: #fff;
+        }
+        .cost {
+          border-color: #24C7AA;
+          color: #24C7AA;
+          background-color: #fff;
+        }
+        ul {
+          li:nth-child(2n+1) {
+            background-color: #FFFFFF;
+          }
+        }
+        button {
+          color: #24C7AA;
+          background-color: #fff;
+        }
       }
     }
   }
