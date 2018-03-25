@@ -15,6 +15,7 @@
 
 .contact {
   padding: 28px 67px;
+  background-color: #F1F1F1;
   background-image: url(../images/red_chair.png);
   background-repeat: no-repeat;
   background-position: 807px 87px;
@@ -23,7 +24,7 @@
     margin-bottom: 43px;
     padding: 5px 0;
     font-size: 2.2rem;
-    font-weight: 100;
+    font-weight: normal;
     text-transform: uppercase;
     width: 320px;
     border-bottom: 8px solid #24C7AA;
@@ -40,6 +41,7 @@
       flex-direction: column;
 
       input, textarea {
+        font-family: 'Raleway';
         border: 1px solid #24C7AA;
         margin-bottom: 26px;
         padding: 14px 22px ;
@@ -102,10 +104,12 @@
         background: url(../images/form_ok.jpg) no-repeat;
         background-position: 0 10px;
         background-size: 90%;
+        background-color: #fff;
       }
     }
       
     input[type="button"] {
+      font-family: 'Raleway';
       margin-top: 37px;
       border: none;
       border-radius: 10px;
@@ -115,6 +119,7 @@
       color: #fff;
       font-size: 3.4rem;
       text-transform: uppercase;
+      cursor: pointer;
     }
     
   }

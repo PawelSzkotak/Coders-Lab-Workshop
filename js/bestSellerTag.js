@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
   var bestSellerFigures = document.querySelectorAll('.bestsellers figure');
-  console.log(bestSellerFigures);
 
   bestSellerFigures.forEach(function(figure) {
     figure.firstElementChild.addEventListener('mouseover', function(){
